@@ -1,0 +1,11 @@
+const entrada = require('readline-sync');
+
+const senha = entrada.question('\nInforme sua Senha ');
+
+if (senha === '1234') {
+    console.log('Sua senha é valida');  
+} else {
+    console.log('senha invalida'); 
+}
+
+
